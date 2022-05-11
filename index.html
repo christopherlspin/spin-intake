@@ -8,6 +8,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Spin Master Intake Forms</title>
+        <link rel="icon" type="image/png" href="/images/sm-logo.png">
         <meta name="description" content="">
         <meta name="robots" content="noindex">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,8 +26,27 @@
                 }
             };
         </script>
+        <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+          }
+          
+          .bg {
+            /* The image used */
+            background-image: url("img_girl.jpg");
+          
+            /* Full height */
+            height: 100%; 
+          
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+          </style>
     </head>
     <body>
-        <div><a class="ui-button ui-widget ui-corner-all" id="intake-button" href="#">Intake Button</a></div>
+        <div class="bg"><a class="ui-button ui-widget ui-corner-all" id="intake-button" href="#">Intake Button</a></div>
     </body>
 </html>
